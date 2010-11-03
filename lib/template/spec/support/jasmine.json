@@ -1,0 +1,9 @@
+{
+ 'src_files':[]
+ ,'stylesheets':[]
+ ,'helpers':[]
+ ,'spec_files':[]
+ ,'src_dir':[]
+ ,'spec_dir':[]
+ ,'reporter':'jasmine.TrivialReporter'
+}
