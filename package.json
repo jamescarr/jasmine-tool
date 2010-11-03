@@ -1,0 +1,12 @@
+{
+  "name"          : "jasmine",
+  "description"   : "Jasmine BDD utility tool and commandline runner",
+  "url"           : "",
+  "keywords"      : ["testing", "spec", "test", "BDD"],
+  "author"        : "James R. Carr <james.r.carr@gmail.com>",
+  "contributors"  : [],
+  "main"          : "./lib/jasmne",
+  "bin"           : { "jasmine": "./bin/jasmine" },
+  "directories"   : { "test": "./test"},
+  "version"       : "0.5.2"
+}
