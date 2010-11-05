@@ -1,14 +1,10 @@
-# Node Jasmine App
-This will be an app to init project dirs and run from the commandline
-and CI, all through node.
-
-WIll use:
- * WebWorkers for process interaction
- * webdriver for browser emulation
-
-Will features
- * specify multiple browsers
+ * Support multiple browsers
+ * Support generating junit xml
  * autospec behavior
- * create project structure
- * run ci
- * configure to use different reporters
+ * colorful output
+ * growl notification
+ * capability to init serverside specs
+ * customizations via jasmine.json
+ * better error handling
+ * actually TDD all this code :)
+ * Support headless testing via HtmlUnit (do they support websockets?)
