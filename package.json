@@ -8,10 +8,11 @@
   "main"          : "./lib/jasmne",
   "bin"           : { "jasmine": "./bin/jasmine" },
   "directories"   : { "test": "./test"},
-  "version"       : "0.0.2",
+  "version"       : "0.0.3",
   "dependencies":{
     "express":"1.0.0rc2",
     "socket.io":"0.6.0",
-    "webworker":"0.8.2"
+    "webworker":"0.8.2",
+    "colors":"0.3.0"
   }
 }
