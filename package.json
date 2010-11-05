@@ -10,6 +10,8 @@
   "directories"   : { "test": "./test"},
   "version"       : "0.5.2",
   "dependencies":{
-    "express":"1.0.0rc2"
+    "express":"1.0.0rc2",
+    "socket.io":"0.6.0",
+    "webworker":"0.8.2"
   }
 }
