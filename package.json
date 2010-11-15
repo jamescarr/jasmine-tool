@@ -13,6 +13,7 @@
     "express":"1.0.0rc2",
     "socket.io":"0.6.0",
     "webworker":"0.8.2",
-    "colors":"0.3.0"
+    "colors":"0.3.0",
+    "growl":"1.0.2",
   }
 }
