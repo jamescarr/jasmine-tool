@@ -22,6 +22,6 @@ var help = [
   if(args.length == 0 || !jasmine.supports(args[0])){
     console.log(help)
   }else{
-    jasmine.run({command:args[0], cwd:process.cwd()})    
+    jasmine.run({command:args[0], cwd:process.cwd(), args:args.splice(1)})    
   }
 })(process.argv.splice(2))
