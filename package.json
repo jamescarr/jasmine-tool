@@ -8,12 +8,13 @@
   "main"          : "./lib/jasmne",
   "bin"           : { "jasmine": "./bin/jasmine" },
   "directories"   : { "test": "./spec"},
-  "version"       : "0.0.5",
+  "version"       : "0.0.8",
   "dependencies":{
     "express":"1.0.0rc2",
     "socket.io":"0.6.0",
     "webworker":"0.8.2",
     "colors":"0.3.0",
     "growl":"1.0.2",
+    "libnotify":"1.0.1"
   }
 }
