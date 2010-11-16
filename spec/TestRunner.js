@@ -3,7 +3,7 @@ var vows = require('vows');
 var assert = require('assert');
 var runner = require('TestRunner');
 var app = new(require("events").EventEmitter);
-var events = new(require("events").EventEmitter);
+var emitter = new(require("events").EventEmitter);
 
 
 var io = {
@@ -11,8 +11,8 @@ var io = {
 };
 
 (function(){
-  vows.describe('Websocket based test runner socket.io events').addBatch({
-    'events from socket':{
+  vows.describe('Websocket based test runner socket.io emitter').addBatch({
+    'emitter from socket':{
       'start' : 
         message({type:'start'}).passedTo('reportRunnerStarting'),
       'suite':
@@ -22,39 +22,19 @@ var io = {
       'finished':
         message({type:'finished'}).passedTo('reportRunnerResults')
       },
-      'run with suite specified':{
+      'reload specs':{
         topic:function(){
           app.on('send', this.callback);
-          testRunner.runTests('#resume');
-          app.removeListener('send', this.callback);
+          emitter.emit("reload");
         },
-        'sends run action':function(err, result){
-          assert.equal('run', result.action);
-        },
-        'sends suite name':function(err, result){
-          assert.equal('#resume', result.suite);
-        },
-        'sends runall as false':function(err, result){
-          assert.isFalse(result.runall);
-        }
-      }, 
-      'run with no suite specified':{
-        topic:function(){
-          app.on('send', this.callback);
-          testRunner.runTests();
-          app.removeListener('send', this.callback);
-        },
-        'specify runnall as true':function(err, result){
-          assert.isTrue(result.runall);
-        },
-        'does not include a suite': function(err, result){
-          assert.isUndefined(result.suite)
+        'sends reload to browser':function(err, result){
+          assert.equal('reload', result);
         }
       }
   }).export(module);
   
   // wiring and test setup
-  var testRunner = new runner.RemoteTestRunner(events),
+  var testRunner = new runner.RemoteTestRunner(emitter),
     reporter = {};
   ['reportRunnerStarting', 'reportSuiteResults', 
    'reportSpecResults', 'reportRunnerResults'].forEach(function(method){
@@ -67,7 +47,7 @@ var io = {
   app.emit('connection', app);
   // stub client
   app.send = function(msg){
-    app.emit('send', null, JSON.parse(msg));
+    app.emit('send', null, msg);
   }
 
   // helper to make things more concise
