@@ -4,7 +4,7 @@
   ,"keywords"      : ["testing", "spec", "test", "BDD"]
   ,"author"        : "James R. Carr <james.r.carr@gmail.com>"
   ,"contributors"  : []
-  ,"main"          : "./lib/jasmne"
+  ,"main"          : "./lib/jasmine"
   ,"bin"           : { "jasmine": "./bin/jasmine" }
   ,"directories"   : { "test": "./spec"}
   ,"version"       : "0.0.10"
