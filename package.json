@@ -7,7 +7,7 @@
   ,"main"          : "./lib/jasmine"
   ,"bin"           : { "jasmine": "./bin/jasmine-runner" }
   ,"directories"   : { "test": "./spec"}
-  ,"version"       : "0.0.13-SNAPSHOT"
+  ,"version"       : "0.0.13"
   ,"dependencies":{
     "express":"1.0.0rc2"
     ,"socket.io":"0.6.0"
