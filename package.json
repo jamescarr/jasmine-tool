@@ -4,8 +4,8 @@
   ,"keywords"      : ["testing", "spec", "test", "BDD"]
   ,"author"        : "James R. Carr <james.r.carr@gmail.com>"
   ,"contributors"  : []
-  ,"main"          : "./lib/jasmne"
-  ,"bin"           : { "jasmine": "./bin/jasmine" }
+  ,"main"          : "./lib/jasmine"
+  ,"bin"           : { "jasmine": "./bin/jasmine-runner" }
   ,"directories"   : { "test": "./spec"}
   ,"version"       : "0.0.13-SNAPSHOT"
   ,"dependencies":{
