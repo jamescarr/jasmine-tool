@@ -1,9 +1,9 @@
 {
- 'src_files':[]
- ,'stylesheets':[]
- ,'helpers':[]
- ,'spec_files':[]
- ,'src_dir':[]
- ,'spec_dir':[]
- ,'reporter':'jasmine.TrivialReporter'
+ "server":{
+   "port":8124
+ },
+ "externals":[
+  "https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js",
+  "https://github.com/velesin/jasmine-jquery/raw/master/lib/jasmine-jquery.js"
+ ]
 }

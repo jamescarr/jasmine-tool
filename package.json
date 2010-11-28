@@ -7,7 +7,7 @@
   ,"main"          : "./lib/jasmne"
   ,"bin"           : { "jasmine": "./bin/jasmine" }
   ,"directories"   : { "test": "./spec"}
-  ,"version"       : "0.0.10"
+  ,"version"       : "0.0.13-SNAPSHOT"
   ,"dependencies":{
     "express":"1.0.0rc2"
     ,"socket.io":"0.6.0"
