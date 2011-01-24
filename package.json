@@ -10,7 +10,7 @@
   ,"directories"   : { "test": "./spec"}
   ,"version"       : "0.1.0"
   ,"dependencies":{
-    "coffee-script": "1.0.0"
+    "coffee-script": "1.0.1"
     ,"express":"2.0.0"
     ,"socket.io":"0.6.0"
     ,"webworker":"0.8.2"

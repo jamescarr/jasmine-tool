@@ -1,4 +1,4 @@
-describe "Foo", ->
+describe "Player using CoffeScript", ->
     song = player = ""
 
     beforeEach ->
