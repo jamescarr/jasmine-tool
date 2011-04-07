@@ -3,7 +3,7 @@ I've been working with jasmine a bit for client side BDD. I like it but didn't l
 
 ## Installation instructions
 This module is available for installation via npm. To install it simply type
-	npm install jasmine
+	npm install jasmine-runner
 
 ## Usage
 
