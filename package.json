@@ -1,4 +1,4 @@
-{  "name"          : "jasmine"
+{  "name"          : "jasmine-runner"
   ,"description"   : "Jasmine BDD utility tool and commandline runner"
   ,"url"           : ""
   ,"repository"    : "https://github.com/jamescarr/jasmine-tool"
