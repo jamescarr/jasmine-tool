@@ -11,8 +11,7 @@ var help = [
     "commands:",
     "  init     Initialize project structure under the current directory",
     "  run      Run specs in current project dir",
-    "  mon      Run server and monitor for changes",
-    "  ci       Run using CI configuration details",
+    "  mon      Run server and monitor for changes"
     "",
     "arguments:",
     " --browsers, -b   Comma separated list of browsers to run with"
