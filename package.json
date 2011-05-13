@@ -8,7 +8,7 @@
   ,"main"          : "./lib/jasmine-runner"
   ,"bin"           : { "jasmine": "./bin/jasmine" }
   ,"directories"   : { "test": "./spec"}
-  ,"version"       : "0.2.6"
+  ,"version"       : "0.2.8"
   ,"dependencies":{
     "express":"2.3.4"
     ,"coffee-script": "1.0.1"
