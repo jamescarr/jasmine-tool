@@ -11,7 +11,7 @@
   ,"version"       : "0.2.1"
   ,"dependencies":{
     "express":"2.3.4"
-    "coffee-script": "1.0.1"
+    ,"coffee-script": "1.0.1"
     ,"socket.io":"0.6.0"
     ,"webworker":"0.8.2"
     ,"colors":"0.3.0"
