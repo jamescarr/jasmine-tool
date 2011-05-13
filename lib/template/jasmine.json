@@ -1,0 +1,9 @@
+{
+ "src_dir"  : "/public/javascript/",
+ "spec_dir" : "/spec/",
+ "server":{
+   "port":8124
+ },
+ "externals":[
+ ]
+}
