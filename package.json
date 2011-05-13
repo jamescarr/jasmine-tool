@@ -4,13 +4,13 @@
   ,"repository"    : "https://github.com/jamescarr/jasmine-tool"
   ,"keywords"      : ["testing", "spec", "test", "BDD"]
   ,"author"        : "James R. Carr <james.r.carr@gmail.com>"
-  ,"contributors"  : []
+  ,"contributors"  : [""]
   ,"main"          : "./lib/jasmine-runner"
   ,"bin"           : { "jasmine": "./bin/jasmine" }
   ,"directories"   : { "test": "./spec"}
-  ,"version"       : "0.1.0"
+  ,"version"       : "0.2.0"
   ,"dependencies":{
-    "express":"1.0.0"
+    "express":"2.3.4"
     ,"socket.io":"0.6.0"
     ,"webworker":"0.8.2"
     ,"colors":"0.3.0"
