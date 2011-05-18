@@ -1,8 +1,9 @@
 # Jasmine Commandline Tool
-I've been working with jasmine a bit for client side BDD. I like it but didn't like the gem too much so I decided to give a try at rolling my own tool written for node.js. Will publish to npm soon.
+I've been working with jasmine a bit for client side BDD. I like it but didn't like the gem too much so I decided to give a try at rolling my own tool written for node.js. 
 
 ## Installation instructions
 This module is available for installation via npm. To install it simply type
+
 	npm install jasmine-runner
 
 ## Usage
@@ -17,12 +18,12 @@ Starts up the jasmine server to run specs from. Navigate to the url specified on
 Starts the jasmine spec server up and monitors for file changes. Navigate to the url specified on the commandline to "capture" a browser. Now any file changes to specs or javascript files in the src_dir will make the browser automatically reload and rerun specs.
 
 ### jasmine ci
-Fires up the server, spawns a browser pointed to the test server, captures the resutls and shuts down. Ideal for CI systems.
+Fires up the server, spawns a browser pointed to the test server, captures the results and shuts down. Ideal for CI systems.
 
 (This feature may be fuzzy until it gets reworked... the current implementation is inflexible)
 
 ## Configuration
-{project dir}/spec/support/jasmine.json is a configuration file that can be used to configure the runner. Here are a break down of the fields that the runner pays attention to:
+Use jasmine.json in the root of your project dir to configure the runner. Here are a break down of the fields that the runner pays attention to:
 
 ### src_dir
 Specifies where to load source files from
@@ -35,7 +36,6 @@ An array of miscelanious scripts to include, like jquery
 
 ### sever
 configuration details for the server, such as port
-
 
 ## Missing a Feature?
 Let me know! You can see my current backlog at https://www.pivotaltracker.com/projects/156137
