@@ -34,7 +34,7 @@ Specifies where to load specs from
 ### externals
 An array of miscelanious scripts to include, like jquery
 
-### sever
+### server
 configuration details for the server, such as port
 
 ## Missing a Feature?
