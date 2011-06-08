@@ -13,7 +13,7 @@
     "express":"2.3.4"
     ,"coffee-script": "1.0.1"
     ,"socket.io":"0.6.0"
-    ,"webworker":"0.8.2"
+    ,"webworker":"0.8.3"
     ,"colors":"0.3.0"
     ,"growl":"1.0.2"
     ,"libnotify":"1.0.1"
