@@ -31,6 +31,10 @@ Specifies where to load source files from
 ### spec_dir
 Specifies where to load specs from
 
+### mon  
+####build_cmd
+In monitor mode : specify here a command to execute when files change but before browser reloads and specs rerun. For example a build command.
+
 ### externals
 An array of miscelanious scripts to include, like jquery
 
